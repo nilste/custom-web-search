@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>Community.PowerToys.Run.Plugin.$(MSBuildProjectName)</AssemblyName>
+    <Platforms>AnyCPU;x64</Platforms>
+    <Version>1.0.0</Version>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <!-- These libraries can be copied from any installation of PowerToys -->
+  <!-- They are located at <PowerToys Path>\modules\launcher -->
+  <ItemGroup>
+    <Reference Include="Wox.Plugin">
+      <HintPath>libs\Wox.Plugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Wox.Infrastructure">
+      <HintPath>libs\Wox.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Sqlite.Core">
+      <HintPath>libs\Microsoft.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="PowerToys.Settings.UI.Lib">
+      <HintPath>libs\PowerToys.Settings.UI.Lib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Images\**\*.*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="plugin.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="services.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+  </ItemGroup>
+
+</Project>

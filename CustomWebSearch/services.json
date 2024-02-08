@@ -1,0 +1,232 @@
+[
+    {
+        "Alias": "a",
+        "Name": "Amazon",
+        "Url": "https://www.amazon.com/s?k={query}"
+    },
+    {
+        "Alias": "adev",
+        "Name": "Apple Developer",
+        "Url": "https://developer.apple.com/search/?q={query}"
+    },
+    {
+        "Alias": "ais",
+        "Name": "Archive.is",
+        "Url": "https://archive.is/{query}"
+    },
+    {
+        "Alias": "ciu",
+        "Name": "Can I Use",
+        "Url": "https://caniuse.com/?search={query}"
+    },
+    {
+        "Alias": "cpp",
+        "Name": "Cppreference",
+        "Url": "https://en.cppreference.com/mwiki/index.php?search={query}"
+    },
+    {
+        "Alias": "crate",
+        "Name": "Crates",
+        "Url": "https://crates.io/search?q={query}"
+    },
+    {
+        "Alias": "d",
+        "Name": "DuckDuckGo",
+        "Url": "https://duckduckgo.com/?q={query}"
+    },
+    {
+        "Alias": "dhub",
+        "Name": "DockerHub",
+        "Url": "https://hub.docker.com/search/?q={query}"
+    },
+    {
+        "Alias": "e",
+        "Name": "eBay",
+        "Url": "https://www.ebay.com/sch/i.html?_nkw={query}"
+    },
+    {
+        "Alias": "g",
+        "Name": "Google",
+        "Url": "https://www.google.com/search?q={query}"
+    },
+    {
+        "Alias": "g24",
+        "Name": "Google 24h",
+        "Url": "https://www.google.com/search?q={query}&tbs=qdr:d"
+    },
+    {
+        "Alias": "gh",
+        "Name": "GitHub",
+        "Url": "https://github.com/search?q={query}"
+    },
+    {
+        "Alias": "gi",
+        "Name": "Google Images",
+        "Url": "https://www.google.com/search?tbm=isch&q={query}"
+    },
+    {
+        "Alias": "gm",
+        "Name": "Google Maps",
+        "Url": "https://www.google.com/maps/search/{query}"
+    },
+    {
+        "Alias": "go",
+        "Name": "Gmail",
+        "Url": "https://mail.google.com/mail/u/0/#search/{query}"
+    },
+    {
+        "Alias": "godot",
+        "Name": "Godot Docs",
+        "Url": "https://docs.godotengine.org/en/stable/search.html?q={query}"
+    },
+    {
+        "Alias": "gt",
+        "Name": "Google Translate",
+        "Url": "https://translate.google.com/#auto/en/{query}"
+    },
+    {
+        "Alias": "hn",
+        "Name": "Hacker News",
+        "Url": "https://hn.algolia.com/?q={query}"
+    },
+    {
+        "Alias": "icon",
+        "Name": "Iconfinder",
+        "Url": "https://www.iconfinder.com/search?q={query}&price=free&license=gte__2"
+    },
+    {
+        "Alias": "imd",
+        "Name": "IMDb",
+        "Url": "https://www.imdb.com/find?q={query}"
+    },
+    {
+        "Alias": "mdn",
+        "Name": "MDN Web Docs",
+        "Url": "https://developer.mozilla.org/search?q={query}"
+    },
+    {
+        "Alias": "nf",
+        "Name": "Netflix",
+        "Url": "https://www.netflix.com/search?q={query}"
+    },
+    {
+        "Alias": "npm",
+        "Name": "npm",
+        "Url": "https://www.npmjs.com/search?q={query}"
+    },
+    {
+        "Alias": "pack",
+        "Name": "Packagist",
+        "Url": "https://packagist.org/search/?q={query}"
+    },
+    {
+        "Alias": "php",
+        "Name": "PHP Docs",
+        "Url": "https://www.php.net/manual-lookup.php?pattern={query}"
+    },
+    {
+        "Alias": "pj",
+        "Name": "Prisjakt",
+        "Url": "https://www.prisjakt.nu/search?search={query}"
+    },
+    {
+        "Alias": "pv",
+        "Name": "Prime Video",
+        "Url": "https://www.primevideo.com/search/?phrase={query}"
+    },
+    {
+        "Alias": "py",
+        "Name": "Python Docs",
+        "Url": "https://docs.python.org/3/search.html?q={query}"
+    },
+    {
+        "Alias": "qt",
+        "Name": "Qt Docs",
+        "Url": "https://doc.qt.io/search-results.html?q={query}"
+    },
+    {
+        "Alias": "r",
+        "Name": "Reddit",
+        "Url": "https://www.reddit.com/search?q={query}"
+    },
+    {
+        "Alias": "rust",
+        "Name": "Rust",
+        "Url": "https://doc.rust-lang.org/std/index.html?search={query}"
+    },
+    {
+        "Alias": "say",
+        "Name": "Merriam-Webster",
+        "Url": "https://www.merriam-webster.com/dictionary/{query}"
+    },
+    {
+        "Alias": "se",
+        "Name": "StackExchange",
+        "Url": "https://stackexchange.com/search?q={query}"
+    },
+    {
+        "Alias": "so",
+        "Name": "StackOverflow",
+        "Url": "https://stackoverflow.com/search?q={query}"
+    },
+    {
+        "Alias": "sr",
+        "Name": "Reddit",
+        "Url": "https://www.reddit.com/r/{query}"
+    },
+    {
+        "Alias": "steam",
+        "Name": "Steam",
+        "Url": "https://store.steampowered.com/search/?term={query}"
+    },
+    {
+        "Alias": "tr",
+        "Name": "Tradera",
+        "Url": "https://www.tradera.com/search?q={query}"
+    },
+    {
+        "Alias": "tw",
+        "Name": "Twitch",
+        "Url": "https://www.twitch.tv/search?term={query}"
+    },
+    {
+        "Alias": "u",
+        "Name": "Urban Dictionary",
+        "Url": "https://www.urbandictionary.com/define.php?term={query}"
+    },
+    {
+        "Alias": "unity",
+        "Name": "Unity Docs",
+        "Url": "https://docs.unity3d.com/ScriptReference/30_search.html?q={query}"
+    },
+    {
+        "Alias": "vue",
+        "Name": "Vue",
+        "Url": "https://v2.vuejs.org/v2/search/?q={query}"
+    },
+    {
+        "Alias": "w",
+        "Name": "Wikipedia",
+        "Url": "https://en.wikipedia.org/w/index.php?search={query}"
+    },
+    {
+        "Alias": "wolf",
+        "Name": "WolframAlpha",
+        "Url": "https://www.wolframalpha.com/input/?i={query}"
+    },
+    {
+        "Alias": "x",
+        "Name": "X",
+        "Url": "https://twitter.com/search?q={query}"
+    },
+    {
+        "Alias": "y",
+        "Name": "Yahoo",
+        "Url": "https://search.yahoo.com/search?p={query}"
+    },
+    {
+        "Alias": "yt",
+        "Name": "YouTube",
+        "Url": "https://www.youtube.com/results?search_query={query}"
+    }
+]

@@ -1,0 +1,13 @@
+{
+  "ID": "9A65303AC054498D883D49C4A3D7B578",
+  "ActionKeyword": "!",
+  "IsGlobal": false,
+  "Name": "Custom Web Search",
+  "Author": "Stefan Nilsson",
+  "Version": "1.0.0",
+  "Language": "csharp",
+  "Website": "https://github.com/nilste/CustomWebSearch",
+  "ExecuteFileName": "Community.PowerToys.Run.Plugin.CustomWebSearch.dll",
+  "IcoPathDark": "Images\\CustomWebSearch.dark.png",
+  "IcoPathLight": "Images\\CustomWebSearch.light.png"
+}
