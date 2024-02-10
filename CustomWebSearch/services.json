@@ -35,6 +35,11 @@
         "Url": "https://duckduckgo.com/?q={query}"
     },
     {
+        "Alias": "dd",
+        "Name": "Dev Docs",
+        "Url": "https://devdocs.io/#q={query}"
+    },
+    {
         "Alias": "dhub",
         "Name": "DockerHub",
         "Url": "https://hub.docker.com/search/?q={query}"
